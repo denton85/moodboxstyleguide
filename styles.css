@@ -1,0 +1,33 @@
+.block {
+  background-color: red; }
+
+.one-third {
+  background-color: blue; }
+
+body {
+  margin: 0px; }
+
+.container {
+  height: 100%;
+  width: 80%;
+  margin: 0px 10%; }
+
+.one-third {
+  width: 29.33333%;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 100px;
+  float: left; }
+
+.block {
+  height: 100px;
+  width: 100%; }
+
+p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
