@@ -1,8 +1,11 @@
 .block {
-  background-color: red; }
+  background-color: #00415B; }
 
-.one-third {
-  background-color: blue; }
+.one-third, .one-half {
+  background-color: #00C588; }
+
+.break {
+  margin-top: 15px; }
 
 body {
   margin: 0px; }
@@ -12,12 +15,31 @@ body {
   width: 80%;
   margin: 0px 10%; }
 
+.one-half, .one-third {
+  float: left; }
+
+.one-half, .one-third {
+  *zoom: 1;
+  display: block; }
+
+.one-half:before, .one-half:after, .one-third:before, .one-third:after {
+  content: " ";
+  display: table; }
+
+.one-third:after, .one-half:after {
+  clear: both; }
+
 .one-third {
   width: 29.33333%;
   margin-right: 2%;
   margin-left: 2%;
+  height: 100px; }
+
+.one-half {
   height: 100px;
-  float: left; }
+  width: 46%;
+  margin-right: 2%;
+  margin-left: 2%; }
 
 .block {
   height: 100px;

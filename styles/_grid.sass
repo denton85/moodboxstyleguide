@@ -11,14 +11,34 @@ $gutter: 2%
   width: $column * 8
   margin: 0px $column
 
+.one-half, .one-third
+  float: left
+
+.one-half, .one-third
+  *zoom: 1
+  display: block
+
+
+.one-half:before, .one-half:after, .one-third:before, .one-third:after
+  content: " "
+  display: table
+
+
+.one-third:after, .one-half:after
+  clear: both
+
+
 .one-third
   width: $column * 3.333333 - $gutter * 2
   margin-right: $gutter
   margin-left: $gutter
-
   height: 100px
-  float: left
 
+.one-half
+  height: 100px
+  width: $column * 5 - $gutter * 2
+  margin-right: $gutter
+  margin-left: $gutter
 
 .block
   height: 100px
