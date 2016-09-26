@@ -1,5 +1,5 @@
 # moodboxstyleguide
-A sass grid framework/style guide for developers to make quick front-end applications without all that extra work. NOTE: This project has just begun, and is very sparce at the moment. Updates will be coming weekly. This is mainly a learning project for my own enjoyment.
+A sass grid framework/style guide for developers to make quick front-end applications without all that extra work. NOTE: This project has just begun, and is very sparce at the moment. Updates will be coming weekly (as of 9-26-2016). This is mainly a learning project for my own enjoyment.
 
 Setup:
 
